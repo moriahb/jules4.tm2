@@ -23,7 +23,7 @@
 
 Map {
   background-color: @land;
-  background-image:url(img/wish.jpeg);
+  background-image:url(img/wish3.jpg);
 }
 
 // Mapbox Terrain global landcover //

@@ -14,7 +14,7 @@ center:
   - -67.3242
   - 38.9594
   - 3
-description: first map
+description: around the world we go
 format: "png8:m=h:c=128"
 interactivity_layer: ''
 layers: 
@@ -43,13 +43,16 @@ layers:
   - waterway_label
   - housenum_label
   - contour.label
+  - line2
+  - POINT
 maxzoom: 7
 minzoom: 2
 name: jules verne
-source: "mapbox:///mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v5"
+source: "mapbox:///mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v5,moriahb.6052643d"
 styles: 
   - style.mss
   - road.mss
   - label.mss
   - poi.mss
+  - overlay.mss
 template: ''
